@@ -12,10 +12,14 @@ namespace WebApp02.Pages
     {
         private readonly ILogger<IndexModel> _logger;
 
+        public string AuthorName { get; set; }
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
+            AuthorName = "Manoj Kumar Sharma";
         }
+
+       
 
         public void OnGet()
         {

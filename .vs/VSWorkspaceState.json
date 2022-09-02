@@ -1,4 +1,9 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\AspWebApp02",
+    "\\AspWebApp02\\WebApp02"
+  ],
+  "SelectedNode": "\\AspWebApp02\\AspWebApp02.sln",
   "PreviewInSolutionExplorer": false
 }

@@ -7,4 +7,26 @@
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+ <p> by - @Model.AuthorName </p>
 </div>
+<ul>
+    @for (int i = 0; i < 5; i++)
+    {
+        <li>Point #i</li>
+    }
+</ul>
+
+<ul>
+    @for (int i = 0; i < 5; i++)
+    {
+        <li>Point <b>#@(i + 1)</b></li>
+    }
+</ul>
+
+<ul>
+    @for (int i = 0; i < 5; i++)
+    {
+        string s = $"Point <b>{i + 1}";             // C#
+        <li>@s</li>                                 <!-- html with C# inlined -->
+    }
+</ul>
