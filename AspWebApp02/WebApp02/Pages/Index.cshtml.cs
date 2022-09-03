@@ -16,7 +16,7 @@ namespace WebApp02.Pages
         public IndexModel(ILogger<IndexModel> logger)
         {
             _logger = logger;
-            AuthorName = "Manoj Kumar Sharma";
+            AuthorName = "Amol Gahane";
         }
 
        

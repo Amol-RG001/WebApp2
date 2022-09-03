@@ -1,0 +1,124 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<html>
+    <head>
+        <style>
+        .card {
+            border: 2px thin hidden;
+            padding: 8px;
+            border-radius: 12px;
+            margin: 12px;
+            width: 280px;
+        }
+        .container{
+            display:flex;
+            
+            justify-content:center;
+
+        }
+        .btn{
+            border:groove;
+            border-color:beige;
+            color:antiquewhite;
+            width:250px;
+
+        }
+        .img-res{
+            justify-content: center;
+            border-radius:8px;
+        }
+        h1{
+            border-radius: 3px;
+            padding: 3px;
+            margin:8px;
+        }
+        .display-4{
+            padding: 8px;
+        }
+        .container .card h5{
+            text-align:center;
+
+        }
+        </style>
+       
+    </head>
+    <body>
+
+    <div class="text-center">
+        <h1 class="display-4" style="background-color:lightgoldenrodyellow"><b>Welcome to Jewellery Collection</b></h1>
+        <marquee width="60%" direction="right" height="100px" style="color:burlywood">
+            World Best Jewelry collection.
+        </marquee>
+    </div>
+    <div>
+        <p>
+            Jewellery or jewelry consists of decorative items worn for personal adornment,
+            such as brooches, rings, necklaces, earrings, pendants, bracelets, and cufflinks.
+            Jewellery may be attached to the body or the clothes. From a western perspective,
+            the term is restricted to durable ornaments, excluding flowers for example.
+            For many centuries metal such as gold often combined with gemstones, has been the normal material for jewellery,
+            but other materials such as shells and other plant materials may be used.
+        </p>
+        <section class="container">
+            <div class="card">
+        <img src="https://source.unsplash.com/1600x900/?diamond" alt="Diamond" class="img-res" width="250" height="250">
+                <h5 style="color:burlywood">Diamond</h5>
+                <a href="" class="btn" style="color:tomato"><strong>Start Exploring</strong></a>
+            </div>
+
+            <div class="card">
+        <img src="https://source.unsplash.com/1600x900/?crystal" alt="crystal" class="img-res" width="250" height="250">
+                <h5 style="color:burlywood">Crystal</h5>
+                <a href="" class="btn" style="color:tomato"><strong>Start Exploring</strong></a>
+        </div>
+
+            <div class="card">
+                <img src="https://source.unsplash.com/1600x900/?necklace" alt="necklace" class="img-res" width="250" height="250">
+                <h5 style="color:burlywood">Necklace</h5>
+                <a href="" class="btn" style="color:tomato"><strong>Start Exploring</strong></a>
+            </div>
+        </section>
+    </div>
+    <hr />
+
+    <h1 style="color:peru"><strong>Shop By Category</strong></h1>
+    <p>Browse through your favourite categories. We've got them all!</p>
+
+    <div class="container">
+        <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?gold" alt="" class="img-res" width="150" height="150">
+            <h3 class="mb-0" style="color:burlywood">Gold Coin</h3>
+            <h6 class="m-0" style="color:brown">Rs 15490</h6>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus voluptatum illo quisquam ex sint labore.</p>
+            <a href="" class="btn" style="color:crimson"><strong>Order Now</strong></a>
+
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?silver" alt="" class="img-res" width="150" height="150">
+            <h3 class="mb-0" style="color:burlywood">Silver Coin</h3>
+            <h6 class="m-0" style="color:brown">Rs 1540</h6>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus voluptatum illo quisquam ex sint labore.</p>
+            <a href="" class="btn" style="color:crimson"><strong>Order Now</strong></a>
+
+        </div>
+
+        <div class="card">
+            <img src="https://source.unsplash.com/1600x900/?earrings" alt="" class="img-res" width="150" height="150">
+            <h3 class="mb-0" style="color:burlywood">Earrings</h3>
+            <h6 class="m-0" style="color:brown">Rs 159490</h6>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus voluptatum illo quisquam ex sint labore.</p>
+            <a href="" class="btn" style="color:crimson"><strong>Order Now</strong></a>
+
+        </div>
+    </div>
+
+    
+
+
+    </body>
+
+</html>
